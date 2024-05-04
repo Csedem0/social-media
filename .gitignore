@@ -1,0 +1,12 @@
+# Ignore virtual environment
+venv/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore static files collected by Django
+#/staticfiles/
+
+# Ignore media files uploaded by users
+/media/
+
