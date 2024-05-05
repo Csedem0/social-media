@@ -2,10 +2,9 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .serializers import CustomUserSerializer
-from rest_framework.permissions import AllowAny
 
 class CustomUserCreate(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = []  # Remove permission_classes to allow unauthenticated access
 
     def post(self, request, format='json'):
         serializer = CustomUserSerializer(data=request.data)
