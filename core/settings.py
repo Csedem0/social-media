@@ -16,8 +16,8 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-#SECRET_KEY = os.environ.get("SECRET_KEY")
-SECRET_KEY = 'apuvicmef^(!j8gx&clu0u(!8m0r^etok^l0)kc!---#(i5=dt'
+SECRET_KEY = os.environ.get("SECRET_KEY")
+# SECRET_KEY = 'apuvicmef^(!j8gx&clu0u(!8m0r^etok^l0)kc!---#(i5=dt'
 
 DEBUG = True
 
