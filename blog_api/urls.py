@@ -1,5 +1,6 @@
 from .views import PostList, PostDetail, PostListDetailfilter, CreatePost, EditPost, AdminPostDetail, DeletePost
 from django.urls import path
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 app_name = 'blog_api'
 
@@ -13,3 +14,5 @@ urlpatterns = [
     path('admin/edit/<int:pk>/', EditPost.as_view(), name='editpost'),
     path('admin/delete/<int:pk>/', DeletePost.as_view(), name='deletepost'),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
