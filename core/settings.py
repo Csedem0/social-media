@@ -112,6 +112,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
     "https://social-media-xrma.onrender.com",
+    "https://social-media-frontend-fpwv.onrender.com",
 ]
 
 # CORS_ALLOWED_ORIGINS = [
