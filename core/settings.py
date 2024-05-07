@@ -113,6 +113,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "https://social-media-xrma.onrender.com",
     "https://social-media-frontend-fpwv.onrender.com",
+    "https://social.media.blancaluxury.com"
 ]
 
 # CORS_ALLOWED_ORIGINS = [
